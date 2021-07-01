@@ -77,15 +77,15 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': 'emora',
+        'NAME': 'd31eagr1eqcc06',
 
-        'USER': 'mim',
+        'USER': 'nvpoacmihlzqhe',
 
-        'PASSWORD': 'tokihery',
+        'PASSWORD': '454f631ab1b96e3883b403d6aea1d0a5de3458e342203a4ba4d90d8322d66da2',
 
-        'HOST': 'localhost',
+        'HOST': 'ec2-54-91-188-254.compute-1.amazonaws.com',
 
-        'PORT': '5433',
+        'PORT': '5432',
     }
 }
 
