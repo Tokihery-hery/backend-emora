@@ -10,14 +10,21 @@
 	=> pip install django django-cors-header  django-heroku gunicorn psycopg2 dj-database-url
 
 2- Touch file runtime.txt in same directory manage.py
+
 	- add python-<your_version_python>
+	
 	=> Python version available for runtime for heroku stack is: 
+	
+	
 	- default stack for python3  is heroku-20
+	
+	
 	-Supported runtimes
 		-python-3.9.6 on all supported stacks : for heroku-20, heroku-18
 		-python-3.8.11 on all supported stacks: for heroku-20, heroku-18
 		-python-3.7.11 on all supported stacks: for heroku-18
 		-python-3.6.14 on all supported stacks:
+
 
 	- for example
 	- in runtime.txt
