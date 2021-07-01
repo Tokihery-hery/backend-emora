@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from .serializers import *
 from .models import UsersEmora, ProductsEmora, SaleOrderEmora
 
-
+#just commnet
 @api_view(['GET', 'POST', 'DELETE'])
 def getListUsers(request, pk):
     
